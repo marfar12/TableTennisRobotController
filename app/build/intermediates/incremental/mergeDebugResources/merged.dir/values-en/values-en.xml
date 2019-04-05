@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="automat_prepinanie">Default</string>
+    <string name="cancel">Turn off</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="exit_app">Exit</string>
+    <string name="hladat">Find devices</string>
+    <string name="manualne_prepinanie">Manual</string>
+    <string name="ovladanie">Controller>></string>
+    <string name="parovane">Paired devices</string>
+    <string name="povolenia">Permissions</string>
+    <string name="prava">R</string>
+    <string name="textView4">SERVING</string>
+    <string name="textView5">SIDE</string>
+</resources>

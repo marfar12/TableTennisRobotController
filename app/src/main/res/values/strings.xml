@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Table Tennis Robot Controller</string>
+    <string name="manualne_prepinanie">Manuálne</string>
+    <string name="automat_prepinanie">Prednastavené</string>
+    <string name="radio_button1" translatable="false">1</string>
+    <string name="radio_button2" translatable="false">2</string>
+    <string name="radio_button3" translatable="false">3</string>
+    <string name="radio_button4" translatable="false">4</string>
+    <string name="radio_button5" translatable="false">5</string>
+    <string name="radio_button6" translatable="false">6</string>
+    <string name="radio_button7" translatable="false">7</string>
+    <string name="radio_button8" translatable="false">8</string>
+    <string name="radio_button9" translatable="false">9</string>
+    <string name="textView1" translatable="false">MOTOR 1</string>
+    <string name="textView2" translatable="false">MOTOR 2</string>
+    <string name="textView3" translatable="false">MOTOR 3</string>
+    <string name="textView4">PODÁVANIE</string>
+    <string name="textView5">STRANA</string>
+    <string name="title_activity_bluetooth" translatable="false">Bluetooth</string>
+    <string name="parovane">Párované zariadenia</string>
+    <string name="povolenia">Povolenia</string>
+    <string name="hladat">Hľadať zariadenia</string>
+    <string name="disconnect">Odpojiť</string>
+    <string name="ovladanie">Ovládanie >>></string>
+    <string name="cancel">Vypnúť</string>
+    <string name="lava" translatable="false">L</string>
+    <string name="prava">P</string>
+    <string name="exit_app">Vypnúť</string>
+</resources>

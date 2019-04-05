@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Xiaomi\\Desktop\\Skola\\Android\\TableTennisRobotController\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Xiaomi\\Desktop\\Skola\\Android\\TableTennisRobotController\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "3,10,8,13,7,2,9,5,6,11,12,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "113,469,366,598,317,57,417,213,266,514,551,169",
+                        "endColumns": "54,43,49,41,47,54,50,51,49,35,45,42",
+                        "endOffsets": "163,508,411,635,360,107,463,260,311,545,592,207"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,154,204,246,294,349,400,452,502,538,584",
+                        "endColumns": "54,43,49,41,47,54,50,51,49,35,45,42",
+                        "endOffsets": "105,149,199,241,289,344,395,447,497,533,579,622"
+                    }
+                }
+            ]
+        }
+    ]
+}

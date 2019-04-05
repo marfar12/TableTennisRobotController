@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nax.tabletennisrobotcontroller.Controller"
+    tools:showIn="@layout/activity_controller">
+
+    <RadioGroup
+        android:id="@+id/rGZadavanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rBMan"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_button_tlacitko"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="20dp"
+            android:text="@string/manualne_prepinanie"
+            android:textAlignment="center"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rBAut"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_button_tlacitko"
+            android:button="@android:color/transparent"
+            android:text="@string/automat_prepinanie"
+            android:textAlignment="center"
+            android:textColor="@color/text_color" />
+
+    </RadioGroup>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.nax.tabletennisrobotcontroller.Controller"
+        tools:showIn="@layout/activity_controller">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+            <TextView
+                android:id="@+id/hodnotaSB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:labelFor="@+id/seekBar1"
+                android:textColor="@color/text_color" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hodnotaSB1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="50"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="@string/textView1" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+            <TextView
+                android:id="@+id/hodnotaSB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:labelFor="@+id/seekBar2"
+                android:textColor="@color/text_color" />
+
+            <SeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hodnotaSB2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="50"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="@string/textView2" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+            <TextView
+                android:id="@+id/hodnotaSB3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:labelFor="@+id/seekBar3"
+                android:textColor="@color/text_color" />
+
+            <SeekBar
+                android:id="@+id/seekBar3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hodnotaSB3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="50"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="@string/textView3" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+            <TextView
+                android:id="@+id/hodnotaSB4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:labelFor="@+id/seekBar4"
+                android:textColor="@color/text_color" />
+
+            <SeekBar
+                android:id="@+id/seekBar4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hodnotaSB4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:max="195"
+                android:progress="98"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="@string/textView4" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seekBar5"
+                android:layout_toStartOf="@+id/cancel"
+                android:text="@string/lava" />
+
+            <SeekBar
+                android:id="@+id/seekBar5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:max="10"
+                android:progressTint="@android:color/transparent"
+                android:progress="5"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seekBar5"
+                android:layout_toEndOf="@id/seekBar5"
+                android:layout_marginStart="50dp"
+                android:text="@string/prava" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="@string/textView5" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/deliaca_ciara" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="132dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button1"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button2"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button3"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/radioGroup1"
+                android:layout_alignStart="@+id/radioGroup1"
+                android:layout_below="@+id/radioGroup1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button4"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button5"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button6"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/radioGroup2"
+                android:layout_alignStart="@+id/radioGroup2"
+                android:layout_below="@+id/radioGroup2"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button7"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button8"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_tlacitko"
+                    android:button="@android:color/transparent"
+                    android:text="@string/radio_button9"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radioGroup3"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/odpojit_bt_tlacitko"
+                android:text="@string/cancel"
+                android:textColor="@color/text_color"/>
+
+            <Button
+                android:id="@+id/disconnect"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cancel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/odpojit_bt_tlacitko"
+                android:text="@string/disconnect"
+                android:textColor="@color/text_color" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</GridLayout>

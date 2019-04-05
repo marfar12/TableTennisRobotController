@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455a64</color>
+    <color name="colorPrimaryDark">#37474f</color>
+    <color name="colorAccent">#cfd8dc</color>
+    <color name="bgColor">#607d8b</color>
+    <color name="text_color">#FFCFD8DC</color>
+    <color name="deliaca_ciara">#78909C</color>
+</resources>
